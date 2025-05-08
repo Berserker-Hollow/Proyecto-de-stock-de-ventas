@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StockyIniciodeSesion
 {
-    public partial class Form1: Form
+    public partial class FormLoginJefe: Form
     {
-        public Form1()
+        public FormLoginJefe()
         {
             InitializeComponent();
         }
