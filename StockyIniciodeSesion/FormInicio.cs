@@ -54,6 +54,7 @@ namespace StockyIniciodeSesion
            
 
 
+
         }
 
         private void btnDetener_Click(object sender, EventArgs e)

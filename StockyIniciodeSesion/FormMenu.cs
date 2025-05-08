@@ -30,6 +30,7 @@ namespace StockyIniciodeSesion
             Sonido.Play();
 
 
+
         }
 
         private void btnDetener2_Click(object sender, EventArgs e)

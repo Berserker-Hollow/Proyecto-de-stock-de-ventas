@@ -235,7 +235,7 @@
             this.btnDetener.UseVisualStyleBackColor = true;
             this.btnDetener.Click += new System.EventHandler(this.btnDetener_Click);
             // 
-            // Form1
+            // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -258,7 +258,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "FormInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormularioLogin";
             this.panel1.ResumeLayout(false);
