@@ -1,0 +1,11 @@
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\bin\Debug\StockyIniciodeSesion.exe.config
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\bin\Debug\StockyIniciodeSesion.exe
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\bin\Debug\StockyIniciodeSesion.pdb
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.AssemblyReference.cache
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.Properties.Resources.resources
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.GenerateResource.cache
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.CoreCompileInputs.cache
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.exe
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.pdb
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormInicio.resources
+C:\Users\monti\OneDrive\Desktop\Parciales\StockyIniciodeSesion\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenu.resources
