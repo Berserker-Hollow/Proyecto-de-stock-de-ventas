@@ -16,5 +16,13 @@ namespace StockyIniciodeSesion
         {
             InitializeComponent();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMenu menu = new FormMenu();
+            menu.Show();
+            this.Close();
+        }
     }
 }
