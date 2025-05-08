@@ -48,9 +48,14 @@ namespace StockyIniciodeSesion
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormLoginJefe loginJefe = new FormLoginJefe();
-            loginJefe.ShowDialog();
-            this.Show();
+            FormLoginJefe nuevologinJefe = new FormLoginJefe();
+            nuevologinJefe.Show();
+            this.Hide();
+
+         
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/hill-and-nostalgic-wii-music-♡.wav";
+            Sonido.Stop();
         }
     }
 }

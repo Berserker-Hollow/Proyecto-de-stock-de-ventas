@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace StockyIniciodeSesion
 {
-    public partial class FormLoginJefe: Form
+    public partial class FormAccesoPermitido: Form
     {
-        public FormLoginJefe()
+        public FormAccesoPermitido()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormMenu menu = new FormMenu();
-            menu.Show();
-            this.Close();
-
         }
     }
 }
