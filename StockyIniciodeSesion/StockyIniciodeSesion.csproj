@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAccesoDenegado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAccesoDenegado.Designer.cs">
+      <DependentUpon>FormAccesoDenegado.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAccesoPermitido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAccesoDenegado.resx">
+      <DependentUpon>FormAccesoDenegado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAccesoPermitido.resx">
       <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
     </EmbeddedResource>

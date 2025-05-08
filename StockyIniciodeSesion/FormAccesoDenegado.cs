@@ -10,25 +10,19 @@ using System.Windows.Forms;
 
 namespace StockyIniciodeSesion
 {
-    public partial class FormLoginJefe: Form
+    public partial class FormAccesoDenegado: Form
     {
-        public FormLoginJefe()
+        public FormAccesoDenegado()
         {
             InitializeComponent();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormMenu menu = new FormMenu();
-            menu.Show();
+            FormLoginJefe loginJefe = new FormLoginJefe();
+            loginJefe.Show();
             this.Close();
-
-        }
-
-        private void btnAcceder_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
