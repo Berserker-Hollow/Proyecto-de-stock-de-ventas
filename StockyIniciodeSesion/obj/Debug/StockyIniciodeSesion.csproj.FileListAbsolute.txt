@@ -24,3 +24,4 @@ C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeS
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormAccesoPermitido.resources
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormAccesoDenegado.resources
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuProducto.resources
+C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormAgregarProducto.resources

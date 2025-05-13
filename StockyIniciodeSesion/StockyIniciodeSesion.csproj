@@ -58,6 +58,12 @@
     <Compile Include="FormAccesoPermitido.Designer.cs">
       <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarProducto.Designer.cs">
+      <DependentUpon>FormAgregarProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLoginJefe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAccesoPermitido.resx">
       <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgregarProducto.resx">
+      <DependentUpon>FormAgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLoginJefe.resx">
       <DependentUpon>FormLoginJefe.cs</DependentUpon>

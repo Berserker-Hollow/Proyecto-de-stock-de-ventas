@@ -16,5 +16,13 @@ namespace StockyIniciodeSesion
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormAgregarProducto nuevoagregarproducto = new FormAgregarProducto();
+            nuevoagregarproducto.Show();
+            this.Hide();
+        }
     }
 }
