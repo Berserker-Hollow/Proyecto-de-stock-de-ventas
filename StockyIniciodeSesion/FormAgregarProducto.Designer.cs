@@ -33,11 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtNombreProducto = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.txtUltimaEntrada = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -97,40 +97,40 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Ultima Entrada:";
             // 
-            // textBox1
+            // txtID
             // 
-            this.textBox1.Location = new System.Drawing.Point(359, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtID.Location = new System.Drawing.Point(359, 54);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(139, 20);
+            this.txtID.TabIndex = 5;
             // 
-            // textBox2
+            // txtNombreProducto
             // 
-            this.textBox2.Location = new System.Drawing.Point(359, 144);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(305, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtNombreProducto.Location = new System.Drawing.Point(359, 144);
+            this.txtNombreProducto.Name = "txtNombreProducto";
+            this.txtNombreProducto.Size = new System.Drawing.Size(305, 20);
+            this.txtNombreProducto.TabIndex = 6;
             // 
-            // textBox3
+            // txtPrecio
             // 
-            this.textBox3.Location = new System.Drawing.Point(359, 229);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(139, 20);
-            this.textBox3.TabIndex = 7;
+            this.txtPrecio.Location = new System.Drawing.Point(359, 229);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(139, 20);
+            this.txtPrecio.TabIndex = 7;
             // 
-            // textBox4
+            // txtCantidad
             // 
-            this.textBox4.Location = new System.Drawing.Point(359, 300);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(139, 20);
-            this.textBox4.TabIndex = 8;
+            this.txtCantidad.Location = new System.Drawing.Point(359, 300);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(139, 20);
+            this.txtCantidad.TabIndex = 8;
             // 
-            // textBox5
+            // txtUltimaEntrada
             // 
-            this.textBox5.Location = new System.Drawing.Point(345, 378);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(166, 20);
-            this.textBox5.TabIndex = 9;
+            this.txtUltimaEntrada.Location = new System.Drawing.Point(345, 378);
+            this.txtUltimaEntrada.Name = "txtUltimaEntrada";
+            this.txtUltimaEntrada.Size = new System.Drawing.Size(166, 20);
+            this.txtUltimaEntrada.TabIndex = 9;
             // 
             // btnGuardar
             // 
@@ -165,11 +165,11 @@
             this.ClientSize = new System.Drawing.Size(800, 583);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUltimaEntrada);
+            this.Controls.Add(this.txtCantidad);
+            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.txtNombreProducto);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -189,11 +189,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtNombreProducto;
+        private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.TextBox txtCantidad;
+        private System.Windows.Forms.TextBox txtUltimaEntrada;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button button2;
     }

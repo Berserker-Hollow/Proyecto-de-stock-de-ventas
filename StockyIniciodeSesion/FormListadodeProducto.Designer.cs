@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtgvListadoProducto = new System.Windows.Forms.DataGridView();
+            this.dgtvListadoProductos = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UltimaEntrada = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvListadoProducto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgtvListadoProductos)).BeginInit();
             this.SuspendLayout();
             // 
-            // dtgvListadoProducto
+            // dgtvListadoProductos
             // 
-            this.dtgvListadoProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvListadoProducto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgtvListadoProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgtvListadoProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.Nombre,
             this.Precio,
             this.Cantidad,
             this.UltimaEntrada});
-            this.dtgvListadoProducto.Location = new System.Drawing.Point(31, 66);
-            this.dtgvListadoProducto.Name = "dtgvListadoProducto";
-            this.dtgvListadoProducto.Size = new System.Drawing.Size(546, 316);
-            this.dtgvListadoProducto.TabIndex = 0;
+            this.dgtvListadoProductos.Location = new System.Drawing.Point(31, 66);
+            this.dgtvListadoProductos.Name = "dgtvListadoProductos";
+            this.dgtvListadoProductos.Size = new System.Drawing.Size(546, 316);
+            this.dgtvListadoProductos.TabIndex = 0;
             // 
             // ID
             // 
@@ -82,17 +82,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dtgvListadoProducto);
+            this.Controls.Add(this.dgtvListadoProductos);
             this.Name = "FormListadodeProducto";
             this.Text = "FormListadodeProducto";
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvListadoProducto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgtvListadoProductos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dtgvListadoProducto;
+        private System.Windows.Forms.DataGridView dgtvListadoProductos;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
