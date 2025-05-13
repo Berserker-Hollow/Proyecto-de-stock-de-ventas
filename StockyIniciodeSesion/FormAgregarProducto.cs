@@ -16,5 +16,10 @@ namespace StockyIniciodeSesion
         {
             InitializeComponent();
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

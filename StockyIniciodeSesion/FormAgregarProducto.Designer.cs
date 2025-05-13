@@ -38,7 +38,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -132,17 +132,18 @@
             this.textBox5.Size = new System.Drawing.Size(166, 20);
             this.textBox5.TabIndex = 9;
             // 
-            // button1
+            // btnGuardar
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.Font = new System.Drawing.Font("ROG Fonts", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(182, 474);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 71);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnGuardar.Font = new System.Drawing.Font("ROG Fonts", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnGuardar.Location = new System.Drawing.Point(182, 474);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(163, 71);
+            this.btnGuardar.TabIndex = 10;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -163,7 +164,7 @@
             this.BackColor = System.Drawing.Color.DarkOrchid;
             this.ClientSize = new System.Drawing.Size(800, 583);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -193,7 +194,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button button2;
     }
 }
