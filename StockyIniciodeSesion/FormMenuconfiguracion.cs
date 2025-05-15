@@ -21,7 +21,7 @@ namespace StockyIniciodeSesion
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             SoundPlayer Sonido = new SoundPlayer();
-            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/wwd.mp3juice.blog-HOME-Resonance-_192-KBps_.wav";
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/PS4-Home-Screen-Music-1-Hour.wav";
             Sonido.Play();
         }
     }

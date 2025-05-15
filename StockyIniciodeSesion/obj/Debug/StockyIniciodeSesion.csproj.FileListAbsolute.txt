@@ -26,3 +26,4 @@ C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeS
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.CoreCompileInputs.cache
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.exe
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.pdb
+C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuconfiguracion.resources
