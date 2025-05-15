@@ -69,5 +69,17 @@ namespace StockyIniciodeSesion
             Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/hill-and-nostalgic-wii-music-♡.wav";
             Sonido.Stop();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMenuconfiguracion nuevomenuconfiguracion = new FormMenuconfiguracion();
+            nuevomenuconfiguracion.Show();
+            this.Hide();
+
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/hill-and-nostalgic-wii-music-♡.wav";
+            Sonido.Stop();
+        }
     }
 }
