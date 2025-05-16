@@ -81,5 +81,16 @@ namespace StockyIniciodeSesion
             Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/One-Piece-Nami_s-Theme.wav";
             Sonido.Stop();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormCorreoElectronico nuevocodigorecuperacion = new FormCorreoElectronico();  // Crea una instancia del segundo formulario
+            nuevocodigorecuperacion.Show();               // Muestra el nuevo formulario
+            this.Hide();                       // Oculta el formulario actual (opcional)
+
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/One-Piece-Nami_s-Theme.wav";
+            Sonido.Stop();
+        }
     }
 }
