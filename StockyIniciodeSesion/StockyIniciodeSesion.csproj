@@ -58,6 +58,12 @@
     <Compile Include="FormAccesoPermitido.Designer.cs">
       <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormActualizacioncontra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormActualizacioncontra.Designer.cs">
+      <DependentUpon>FormActualizacioncontra.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAgregarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="FormAvisodeProducto.Designer.cs">
       <DependentUpon>FormAvisodeProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCodigoVerificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCodigoVerificacion.Designer.cs">
+      <DependentUpon>FormCodigoVerificacion.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCorreoElectronico.cs">
       <SubType>Form</SubType>
@@ -126,8 +138,14 @@
     <EmbeddedResource Include="FormAccesoPermitido.resx">
       <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormActualizacioncontra.resx">
+      <DependentUpon>FormActualizacioncontra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAgregarProducto.resx">
       <DependentUpon>FormAgregarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCodigoVerificacion.resx">
+      <DependentUpon>FormCodigoVerificacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCorreoElectronico.resx">
       <DependentUpon>FormCorreoElectronico.cs</DependentUpon>

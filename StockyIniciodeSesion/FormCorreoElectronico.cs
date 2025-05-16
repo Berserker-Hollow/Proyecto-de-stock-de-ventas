@@ -21,5 +21,13 @@ namespace StockyIniciodeSesion
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormCodigoVerificacion nuevocodigoverificacion = new FormCodigoVerificacion();  // Crea una instancia del segundo formulario
+            nuevocodigoverificacion.Show();               // Muestra el nuevo formulario
+            this.Hide();                       // Oculta el formulario actual (opcional)
+
+        }
     }
 }
