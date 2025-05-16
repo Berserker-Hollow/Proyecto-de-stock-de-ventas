@@ -22,6 +22,7 @@ C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeS
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenu.resources
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuconfiguracion.resources
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuProducto.resources
+C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormRegistro.resources
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.Properties.Resources.resources
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.GenerateResource.cache
 C:\Users\monti\source\repos\Neblan06\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.CoreCompileInputs.cache

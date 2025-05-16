@@ -48,6 +48,7 @@
             this.btnReproducir = new System.Windows.Forms.Button();
             this.btnDetener = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -145,7 +146,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(428, 420);
+            this.button1.Location = new System.Drawing.Point(428, 444);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 30);
             this.button1.TabIndex = 8;
@@ -243,18 +244,31 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Location = new System.Drawing.Point(341, 524);
+            this.button2.Location = new System.Drawing.Point(326, 524);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 35);
             this.button2.TabIndex = 17;
             this.button2.Text = "Registrar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("OCR A Extended", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Location = new System.Drawing.Point(420, 406);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(183, 13);
+            this.linkLabel2.TabIndex = 18;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "¿No te has registrado?";
             // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 586);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnDetener);
             this.Controls.Add(this.btnReproducir);
@@ -311,6 +325,7 @@
         private System.Windows.Forms.Button btnReproducir;
         private System.Windows.Forms.Button btnDetener;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

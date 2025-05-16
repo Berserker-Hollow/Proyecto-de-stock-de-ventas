@@ -70,5 +70,16 @@ namespace StockyIniciodeSesion
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormRegistro nuevoRegistro = new FormRegistro();  // Crea una instancia del segundo formulario
+            nuevoRegistro.Show();               // Muestra el nuevo formulario
+            this.Hide();                       // Oculta el formulario actual (opcional)
+
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/One-Piece-Nami_s-Theme.wav";
+            Sonido.Stop();
+        }
     }
 }
