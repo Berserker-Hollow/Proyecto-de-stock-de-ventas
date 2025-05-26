@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CorreoHelper.cs" />
     <Compile Include="FormAccesoDenegado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +89,12 @@
     <Compile Include="FormCorreoElectronico.Designer.cs">
       <DependentUpon>FormCorreoElectronico.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEmpleadoyJefe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleadoyJefe.Designer.cs">
+      <DependentUpon>FormEmpleadoyJefe.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormListadodeProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +119,12 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenuCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuCliente.Designer.cs">
+      <DependentUpon>FormMenuCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenuconfiguracion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,8 +143,10 @@
     <Compile Include="FormRegistro.Designer.cs">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </Compile>
+    <Compile Include="PasswordHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SesionRecuperacion.cs" />
     <EmbeddedResource Include="FormAccesoDenegado.resx">
       <DependentUpon>FormAccesoDenegado.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +165,9 @@
     <EmbeddedResource Include="FormCorreoElectronico.resx">
       <DependentUpon>FormCorreoElectronico.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleadoyJefe.resx">
+      <DependentUpon>FormEmpleadoyJefe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormListadodeProducto.resx">
       <DependentUpon>FormListadodeProducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -161,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuCliente.resx">
+      <DependentUpon>FormMenuCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuconfiguracion.resx">
       <DependentUpon>FormMenuconfiguracion.cs</DependentUpon>
@@ -195,6 +216,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ignorar.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

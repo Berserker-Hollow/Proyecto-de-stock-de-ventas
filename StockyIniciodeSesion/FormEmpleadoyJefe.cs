@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Stocksventas
+namespace StockyIniciodeSesion
 {
-    public partial class Form1: Form
+    public partial class FormEmpleadoyJefe: Form
     {
-        public Form1()
+        public FormEmpleadoyJefe()
         {
             InitializeComponent();
         }

@@ -24,5 +24,13 @@ namespace StockyIniciodeSesion
             nuevoagregarproducto.Show();
             this.Hide();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMenu menu = new FormMenu();
+            menu.Show();
+            this.Close();
+        }
     }
 }

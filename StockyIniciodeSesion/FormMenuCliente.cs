@@ -12,31 +12,19 @@ using System.Windows.Forms;
 
 namespace StockyIniciodeSesion
 {
-    public partial class FormAccesoPermitido: Form
+    public partial class FormMenuCliente: Form
     {
-        public FormAccesoPermitido()
+        public FormMenuCliente()
         {
             InitializeComponent();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormMenu menu = new FormMenu();
-            menu.Show();
-            this.Close();
-
-            SoundPlayer Sonido = new SoundPlayer();
-            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/wwd.mp3juice.blog-HOME-Resonance-_192-KBps_.wav";
-            Sonido.Stop();
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
             try
             {
                 // Ruta relativa desde el directorio Debug
-                string ruta = Path.Combine(Application.StartupPath, @"One Piece\wwd.mp3juice.blog-HOME-Resonance-_192-KBps_.wav");
+                string ruta = Path.Combine(Application.StartupPath, @"One Piece\Mii-Maker-Theme.wav");
 
                 // Verifica si el archivo existe antes de intentar reproducirlo
                 if (File.Exists(ruta))
@@ -53,13 +41,30 @@ namespace StockyIniciodeSesion
             {
                 MessageBox.Show("Error al intentar reproducir el sonido:\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             SoundPlayer Sonido = new SoundPlayer();
-            Sonido.SoundLocation = "C:/Users/monti/Downloads/One Piece/wwd.mp3juice.blog-HOME-Resonance-_192-KBps_.wav";
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/Mii-Maker-Theme.wav";
+            Sonido.Stop();
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormMenu nuevomenu = new FormMenu();
+            nuevomenu.Show();
+            this.Close();
+
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/monti/Downloads/Mii-Maker-Theme.wav";
             Sonido.Stop();
         }
     }

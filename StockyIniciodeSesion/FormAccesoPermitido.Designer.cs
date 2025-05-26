@@ -77,9 +77,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(115, 305);
+            this.pictureBox1.Location = new System.Drawing.Point(81, 289);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 102);
+            this.pictureBox1.Size = new System.Drawing.Size(146, 102);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -88,7 +88,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(334, 305);
+            this.pictureBox2.Location = new System.Drawing.Point(334, 289);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(107, 102);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -99,7 +99,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(550, 305);
+            this.pictureBox3.Location = new System.Drawing.Point(541, 289);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(107, 102);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -108,7 +108,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(81, 429);
+            this.button1.Location = new System.Drawing.Point(81, 437);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 78);
             this.button1.TabIndex = 5;
@@ -117,18 +117,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(322, 429);
+            this.button2.Location = new System.Drawing.Point(325, 437);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 78);
+            this.button2.Size = new System.Drawing.Size(138, 78);
             this.button2.TabIndex = 6;
             this.button2.Text = "Producto mas vendidos";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(528, 429);
+            this.button3.Location = new System.Drawing.Point(530, 437);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 78);
+            this.button3.Size = new System.Drawing.Size(140, 78);
             this.button3.TabIndex = 7;
             this.button3.Text = "Inventario actual";
             this.button3.UseVisualStyleBackColor = true;
@@ -149,7 +149,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(747, 429);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 78);
+            this.button4.Size = new System.Drawing.Size(142, 86);
             this.button4.TabIndex = 9;
             this.button4.Text = "Inventario del Cliente";
             this.button4.UseVisualStyleBackColor = true;
@@ -158,9 +158,9 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(769, 305);
+            this.pictureBox5.Location = new System.Drawing.Point(747, 289);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(107, 102);
+            this.pictureBox5.Size = new System.Drawing.Size(129, 118);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
