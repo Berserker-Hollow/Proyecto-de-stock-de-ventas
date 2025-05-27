@@ -40,8 +40,6 @@ C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\bin\Debu
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\bin\Debug\StockyIniciodeSesion.pdb
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.AssemblyReference.cache
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.ResolveComReference.cache
-C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormAccesoDenegado.resources
-C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormAccesoPermitido.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormCambiarContraseña.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormAgregarProducto.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormCodigoVerificacion.resources
@@ -54,7 +52,6 @@ C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debu
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuCliente.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuconfiguracion.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuProducto.resources
-C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormMenuVentas.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.FormRegistro.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.Properties.Resources.resources
 C:\Users\rober\Desktop\Proyecto-de-stock-de-ventas\StockyIniciodeSesion\obj\Debug\StockyIniciodeSesion.csproj.GenerateResource.cache

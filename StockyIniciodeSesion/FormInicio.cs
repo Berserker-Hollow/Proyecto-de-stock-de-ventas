@@ -23,7 +23,15 @@ namespace StockyIniciodeSesion
         }
         public class Conexion
         {
-            public static string cadena = "Server=ROBERTO;Database=InventarioDB;User Id=roberto;Password=12345;";
+            public static string cadena = "Server=tcp:berserkers3.database.windows.net,1433;" +
+                                   "Initial Catalog=InventarioDB;" +
+                                   "Persist Security Info=False;" +
+                                   "User ID=roberto;" +
+                                   "Password=Rr123456789;" +
+                                   "MultipleActiveResultSets=False;" +
+                                   "Encrypt=True;" +
+                                   "TrustServerCertificate=False;" +
+                                   "Connection Timeout=30;";
             public static SqlConnection ObtenerConexion()
             {
                 return new SqlConnection(cadena);

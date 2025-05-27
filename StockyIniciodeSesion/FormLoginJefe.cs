@@ -28,10 +28,6 @@ namespace StockyIniciodeSesion
 
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FormAccesoPermitido nuevoaccesopermitido = new FormAccesoPermitido();
-            nuevoaccesopermitido.Show();
-            this.Hide();
         }
     }
 }

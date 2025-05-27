@@ -46,17 +46,13 @@ namespace StockyIniciodeSesion
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            // 1. Leer valores de los TextBox
             string nombre = txtNombre.Text.Trim();
             string usuario = txtUsuario.Text.Trim();
             string correo = txtCorreo.Text.Trim();
             string clave = txtClave.Text;
             string confirmarClave = txtConfirmarClave.Text;
+            string rol = "Empleado";
 
-            // Rol fijo asignado automáticamente
-            string rol = "Empleado"; // Puedes cambiarlo a "Usuario" si lo prefieres
-
-            // 2. Validar que no estén vacíos
             if (string.IsNullOrWhiteSpace(nombre) ||
                 string.IsNullOrWhiteSpace(usuario) ||
                 string.IsNullOrWhiteSpace(correo) ||
@@ -67,34 +63,25 @@ namespace StockyIniciodeSesion
                 return;
             }
 
-            // 3. Validar formato de correo
             if (!Regex.IsMatch(correo, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
             {
                 MessageBox.Show("Ingresa un correo electrónico válido.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // 4. Validar que contraseña y confirmación coincidan
             if (clave != confirmarClave)
             {
                 MessageBox.Show("La contraseña y su confirmación no coinciden.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // 5. Conectar y verificar existencia de usuario/correo
             using (SqlConnection con = FormInicio.Conexion.ObtenerConexion())
             {
                 try
                 {
                     con.Open();
 
-                    // Verificar si ya existe usuario o correo
-                    string existeQuery = @"
-                SELECT COUNT(*) 
-                FROM Usuarios 
-                WHERE Usuario = @usuario OR CorreoElectronico = @correo;
-            ";
-
+                    string existeQuery = @"SELECT COUNT(*) FROM Usuarios WHERE Usuario = @usuario OR CorreoElectronico = @correo;";
                     using (SqlCommand cmdExiste = new SqlCommand(existeQuery, con))
                     {
                         cmdExiste.Parameters.AddWithValue("@usuario", usuario);
@@ -108,13 +95,11 @@ namespace StockyIniciodeSesion
                         }
                     }
 
-                    // Insertar nuevo usuario
                     string insertQuery = @"
-                INSERT INTO Usuarios 
-                    (NombreCompleto, Usuario, CorreoElectronico, Clave, Rol)
-                VALUES
-                    (@nombre, @usuario, @correo, @clave, @rol);
-            ";
+                        INSERT INTO Usuarios 
+                            (NombreCompleto, Usuario, CorreoElectronico, Clave, Rol)
+                        VALUES
+                            (@nombre, @usuario, @correo, @clave, @rol);";
 
                     using (SqlCommand cmdInsert = new SqlCommand(insertQuery, con))
                     {
@@ -122,14 +107,14 @@ namespace StockyIniciodeSesion
                         cmdInsert.Parameters.AddWithValue("@usuario", usuario);
                         cmdInsert.Parameters.AddWithValue("@correo", correo);
                         cmdInsert.Parameters.AddWithValue("@clave", PasswordHelper.HashPassword(clave));
-                        cmdInsert.Parameters.AddWithValue("@rol", rol); // ahora sí declarada correctamente
+                        cmdInsert.Parameters.AddWithValue("@rol", rol);
 
                         int filas = cmdInsert.ExecuteNonQuery();
                         if (filas > 0)
                         {
                             MessageBox.Show("¡Registro exitoso!", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            this.Close();                // Cierra el formulario de registro
-                            new FormInicio().Show();     // Vuelve al login
+                            this.Close();
+                            new FormInicio().Show();
                         }
                         else
                         {

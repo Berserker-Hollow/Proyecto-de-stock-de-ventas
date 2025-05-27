@@ -47,18 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorreoHelper.cs" />
-    <Compile Include="FormAccesoDenegado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAccesoDenegado.Designer.cs">
-      <DependentUpon>FormAccesoDenegado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormAccesoPermitido.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAccesoPermitido.Designer.cs">
-      <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormActualizacioncontra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,12 +135,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SesionRecuperacion.cs" />
-    <EmbeddedResource Include="FormAccesoDenegado.resx">
-      <DependentUpon>FormAccesoDenegado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAccesoPermitido.resx">
-      <DependentUpon>FormAccesoPermitido.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormActualizacioncontra.resx">
       <DependentUpon>FormActualizacioncontra.cs</DependentUpon>
     </EmbeddedResource>
